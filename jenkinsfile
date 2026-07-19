@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/namanaresh/hello-world.git'
+                git branch: 'main', url: 'https://github.com/namanaresh/docker.git'
             }
         }
         stage('Hello World') {
